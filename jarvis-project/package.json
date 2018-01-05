@@ -1,0 +1,35 @@
+{
+  "name": "jarvis.ai",
+  "version": "1.0.0",
+  "description": "Your virtual roledex assistant",
+  "main": "app.js",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
+    "modules": "^0.4.0",
+    "mongoose": "^4.13.1",
+    "session": "^0.1.0",
+    "twilio": "^3.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-final-project.git"
+  },
+  "author": "Christian Miljkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-final-project/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-final-project#readme"
+}
