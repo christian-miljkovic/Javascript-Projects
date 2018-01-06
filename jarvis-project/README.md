@@ -1,7 +1,7 @@
 # Jarvis Your Personal Assistant 
 
-## Side Note
-Professor Veroza said that I could use a bot instead of a website for my proejct, therefore a form would work like a text message response taking in a friends information, or your own information. You can then ask to see your friends birthday by texting. 
+## How to use
+Interact with your personal bot Jarvis by texting the number +1 (203) 427-0564 and say "Hi".
 
 ## Overview
 
