@@ -1,0 +1,30 @@
+{
+  "name": "reversi",
+  "version": "1.0.0",
+  "description": "homework 1 puzzle game",
+  "main": "src/app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test_reversi.js"
+  },
+  "author": "Christian Miljkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.7.1",
+    "eslint-plugin-mocha": "^4.11.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework01/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework01#readme"
+}

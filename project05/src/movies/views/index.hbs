@@ -1,0 +1,28 @@
+<h2>Here you can filter movies!</h2>
+
+<form action="/movies" method="get">
+    <div>
+        <label for="directorName">Director Name: </label>
+        <input type="text" name="director">
+    </div>
+
+    <br>  
+	<div class="button">
+	  <button type="submit">Filter Movies By Director</button>
+	</div>
+</form>
+
+
+
+<ul>
+	
+	{{#each movies}}
+		<li>{{this.title}} {{this.year}} {{this.director}}</li>
+	{{/each}}
+
+</ul>
+
+
+<a href='/movies/add'>Add a Movie</a>
+<br>
+<a href='/mymovies'>Check out the movies you added!</a>

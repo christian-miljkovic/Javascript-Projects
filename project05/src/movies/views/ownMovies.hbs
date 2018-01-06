@@ -1,0 +1,11 @@
+<h2>Movies Added By You!</h2>
+
+<ul>
+	
+	{{#each addedMovies}}
+		<li>Movie: {{this.[0]}}, Director: {{this.[1]}}, Year: {{this.[2]}}</li>
+	{{/each}}
+
+</ul>
+
+<a href='/movies'>Home Page</a>

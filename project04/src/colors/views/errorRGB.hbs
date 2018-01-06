@@ -1,0 +1,36 @@
+<h1> Time to print out some colors </h1>
+
+<form action="" method="get">
+    <div>
+        <label for="redValue">Red value: </label>
+        <input type="number" min="0" max="255" name="red">
+    </div>
+    <div>
+        <label for="greenValue">Green value: </label>
+        <input type="number" min="0" max="255" name="green">
+    </div>
+    <div>
+        <label for="blueValue">Blue value: </label>
+        <input type="number" min="0" max="255" name="blue">
+    </div>
+    <div>
+        <label for="shadesValue">How many shades: </label>
+        <input type="number" min="2" max="10" name="total">
+    </div>  
+    <br>  
+	<div class="button">
+	  <button type="submit">Generate Colors!</button>
+	</div>
+</form>
+
+
+    {{#each shadesArray}}
+        <div style="background-color:{{this.hex}}">
+            <p>{{this.name}}</p>
+            <p>{{this.hex}}</p>
+            <p>({{this.r}},{{this.g}},{{this.b}})</p>
+        </div>
+    {{/each}}
+
+<h2>Hey the red, green, and blue colors should be in between 0 and 255!</h2>
+<h2>Oh and the total number of shades should be between 2 and 10 :)</h2>

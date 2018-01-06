@@ -1,0 +1,25 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "creating decorator functions and higher order functions",
+  "main": "hoffy.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha-sinon": "^2.0.0",
+    "sinon": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha tests/hoffy-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework02.git"
+  },
+  "author": "Christian Miljkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework02/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework02#readme"
+}

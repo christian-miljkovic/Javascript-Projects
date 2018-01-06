@@ -1,0 +1,46 @@
+<div align="center">
+  <table id="places-table">
+    <thead>
+      <th>Name</th>
+      <th>Cuisine</th>
+      <th>Location</th>
+    </thead>
+    <tbody id="places-list">
+    </tbody>
+  </table>
+</div>
+
+<form id="filter-div">
+    <p>Location: <input type="text" id="loc" name="location"></p>
+    <div>
+      Cuisine:
+      <select id="sel" name="cuisine">
+        <option value="">All</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Italian">Italian</option>
+        <option value="American">American</option>
+        <option value="Turkish">Turkish</option>
+      </select>
+    </div>
+	<div><button id="filterBtn">Filter!</button></div>
+</form>
+
+<hr>
+
+<form id="create-div">
+  <h3>Add a restaurant</h3>
+  <div>Name: <input id="name" type="text" name="name" required></div>
+  <div>Location: <input id="location" type="text" name="location" required></div>
+  <div>
+    Cuisine:
+    <select id="cuisine" name="cuisine">
+      <option value="Chinese">Chinese</option>
+      <option value="Italian">Italian</option>
+      <option value="American">American</option>
+      <option value="Turkish">Turkish</option>
+    </select>
+  </div>
+  <div><button id="addBtn">Add</button></div>
+</form>
+
+<script src="javascripts/main.js"> </script>

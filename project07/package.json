@@ -1,0 +1,24 @@
+{
+  "name": "cmm892-homework07",
+  "version": "1.0.0",
+  "description": "Client Side javascript Black Jack game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework07.git"
+  },
+  "author": "Christian Miljkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework07/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-003-fall-2017/cmm892-homework07#readme",
+  "dependencies": {
+    "eslint": "^4.11.0",
+    "express": "^4.16.2",
+    "express-static": "^1.2.5"
+  }
+}

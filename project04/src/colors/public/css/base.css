@@ -1,0 +1,39 @@
+body {
+
+	text-align: center;
+	background-color: black;
+}
+
+h1 {
+
+	color:yellow;
+}
+
+a{
+	color:white;
+}
+
+ul {
+
+	list-style: none;
+	color:white;
+}
+
+li {
+	color: white;
+	list-style: none;
+}
+
+h2{
+
+	color:white;
+}
+
+p{
+	color:black;
+}
+
+label {
+
+	color:white;
+}
