@@ -12,7 +12,7 @@ const bodyParser = require('body-parser');
 
 const apiai = require('apiai');
  
-const bot = apiai("9690fd03bec84642a60b9acb5e982096");
+const bot = apiai(process.env.API_AI);
 
 //get the authentication information
 const accountSid = process.env.ACCOUNT_SID;
@@ -21,10 +21,7 @@ const authToken = process.env.AUTH_TOKEN;
 const twilio = require('twilio');
 
 //check how to get dotenv to work
-//Test credentials: ACd5d36af35598d0e55688beb8206a7f03,e8cfe1239a574c6a2446c9d6d111156d
-//Original credentials: AC656657ac6fe18d7197bc7379b96357a2, b90572f77203a360efa8750f07efe9b8
 
-const client = new twilio("ACd5d36af35598d0e55688beb8206a7f03","e8cfe1239a574c6a2446c9d6d111156d");
 
 app.use(bodyParser.urlencoded({extended:false}));
 
