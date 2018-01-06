@@ -23,4 +23,4 @@ const User = new mongoose.Schema({
 mongoose.model('User', User);
 mongoose.model('Friend', Friend);
 
-mongoose.connect('mongodb://cmiljkovic:Dicovich1025!!@ds157325.mlab.com:57325/jarvis-ai');
+mongoose.connect(process.env.DB_CONFIG);
