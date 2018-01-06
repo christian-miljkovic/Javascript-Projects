@@ -1,2 +1,2 @@
-# solidityAuctionHouse
-Starter code for Solidity programming assignment
+#SolidityAuctionHouse
+Code for multiple different types of auctions implemented using solidity
