@@ -1,2 +1,5 @@
-Christian Miljkovic - cmm892
-Homework #01 - Reversi
+# The Game Reversi
+
+### [Rules of the game](https://en.wikipedia.org/wiki/Reversi)
+
+
